@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+body{
+  background-color: rgb(248, 248, 248);
+ 
+}
+
+.extra{
+  height: 100vh;
+}
+
+.extra h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  left: 290px;
+  top: 20px;
+}
+
+.extra ul{
+  position: absolute;
+  top: 120px;
+  left: 300px;
+  width: 48pc;
+  max-height: 500px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #f5f5f5;
+  &::-webkit-scrollbar {
+      width: 8px;
+      border-radius: 8px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: #b8b5b5;
+      border-radius: 8px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background-color: #f5f5f5;
+      border-radius: 8px;
+    }  
+}
+
+.extra ul li{
+  margin-bottom: 20px;
+}
+
+.custom-container{
+    max-height: 500px;
+    overflow: auto;
+    margin-right: 70px;
+    scrollbar-width: thin;
+    scrollbar-color: #f5f5f5;
+    &::-webkit-scrollbar {
+        width: 8px;
+        border-radius: 8px;
+      }
+    
+      &::-webkit-scrollbar-thumb {
+        background-color: #b8b5b5;
+        border-radius: 8px;
+      }
+    
+      &::-webkit-scrollbar-track {
+        background-color: #f5f5f5;
+        border-radius: 8px;
+      }  
+
+}
+
+.custom-container table{
+    border-radius: 10px;
+    margin-top: 10px;
+}
